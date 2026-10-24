@@ -1,0 +1,20 @@
+# Build output
+build/
+build-*/
+*.o
+*.app/
+*.dSYM/
+Makefile*
+moc_*
+ui_*.h
+.qmake.stash
+.qtc_clangd/
+
+# Qt Creator user settings
+*.pro.user*
+CMakeLists.txt.user*
+
+# Runtime data written by the app
+*.json
+
+.DS_Store
